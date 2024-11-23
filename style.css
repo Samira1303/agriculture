@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(97, 202, 167); */
+}
+
+.white_a a {
+  color: rgb(182, 207, 42);
+}
+
+.txt {
+  color: rgb(182, 207, 42);
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  /* background-color: rgb(59, 111, 157); */
+  display: flex;
+  justify-content: space-around;
+}
+
+.navleft {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 30%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  /* background-color: rgb(139, 109, 65); */
+}
+
+.logoname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  width: 50%;
+  height: 70px;
+  /* background-color: rgb(118, 68, 8); */
+  color: rgb(182, 207, 42);
+}
+
+.navright {
+  width: 50%;
+  height: 70px;
+  /* background-color: rgb(161, 127, 255); */
+}
+
+.navright ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.navright ul li {
+  margin: 10px;
+}
+
+#starvation {
+  background-image: url(https://as2.ftcdn.net/v2/jpg/05/00/21/49/1000_F_500214974_kRZ84A8qulIcezGWpiLB7mEYUBgBOvcC.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  width: 50%;
+  min-height: 100px;
+  /* background-color: aquamarine; */
+  color: rgb(182, 207, 42);
+}
+
+.size {
+  font-size: 40px;
+}
+
+.navright ul li p:first-child{
+  color: rgb(5, 117, 40);
+}
